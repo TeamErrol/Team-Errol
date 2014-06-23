@@ -1,5 +1,7 @@
 body {
     background-color:grey;
+	background: url("../Images/background.jpg");
+	background-repeat: no-repeat;
     color:#000305;
     font-size:87.5%;
     font-family: Arial,'Lucida Sans Unicode';
