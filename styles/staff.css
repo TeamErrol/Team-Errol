@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+    color:#000305;
+    font-size:87.5%;
+    font-family: Arial,'Lucida Sans Unicode';
+    line-height:1.5;
+    text-align:left;
+}
+
+
+
+       /*   HEADER   */
+
+
+
+img {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #cf5c3f;
+}
+
+a:hover, a:active {
+    background-color: #cf5c3f;
+    color: #fff;
+}
+
+.body {
+    margin: 0 auto;
+    width:70%;
+    clear:both;
+}
+
+
+.mainheader nav {
+    background-color: #666;
+    height:40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color:#fff;
+    display:inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+    background-color:#CF5C3F;
+    text-shadow: none;
+}
+
+.mainheader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+         /*  CONTENT   */
+
+
+
+.maincontent {
+    margin: 2%;
+}
+
+.photo{
+    width:27%;
+    height: auto;
+    float: left;
+    border-radius: 2% 0% 0% 2%;
+}
+
+.content .info {
+    width: 69%;
+    height: 297px;
+    color:black;
+    background-color: white;
+    float: left;
+    padding-left: 4px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+div#kurtevInfo.info {
+    height: 189px;
+}
+
+div#karamfilovInfo.info {
+    height: 189px;
+}
+
+div#vladoInfo.info {
+    height: 177px;
+}
+
+
+
+
+        /*  FOOTER  */
+
+
+
+.mainfooter {
+    width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+}
+
+.mainfooter p {
+    width:92%;
+    margin: 1% auto;
+    color: #fff;
+}
+
+
+
+     /*RESPONSIVE*/
+
+
+
+@media only screen  and (min-width: 150px) and (max-width: 600px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .mainheader img {
+        width:100%;
+    }
+
+    .mainheader nav {
+        height: 160px;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+
+    .content .info {
+        width: 99%;
+    }
+
+    .photo {
+        width: 100%
+    }
+}
+
