@@ -60,8 +60,12 @@ a:hover, a:active {
 }
 
 .mainheader nav {
-    background-color: #666;
-    height:40px;
+    background-color: rgba(113,134,131,0.6);
+    height:60px;
+    font-size: 120%;
+    border-width: 5px;
+    border-style:inset;
+    border-color: #949fa6;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -79,15 +83,15 @@ a:hover, a:active {
 
 .mainheader nav a:link, .mainheader nav a:visited {
     color:#fff;
+    text-shadow:3px 3px black; 
     display:inline-block;
-    padding: 10px 25px;
-    height: 20px;
+    padding: 15px 25px;
+    height: 30px;
 }
 
 .mainheader nav a:hover, .mainheader nav a:active,
 .mainheader nav .active a:link, .mainheader nav .active a:visited {
-    background-color:#CF5C3F;
-    text-shadow: none;
+    background-color:rgba(148,159,166,0.7);
 }
 
 .mainheader nav ul li a{
