@@ -46,7 +46,7 @@ a:hover, a:active {
 
 
 .mainheader nav {
-    background-color: #666;
+    background-color: #234465;
     height:40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -134,7 +134,7 @@ div#vladoInfo.info {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #666;
+    background-color: #234465;
     margin: 2% 0;
 }
 
