@@ -1,3 +1,8 @@
+@font-face{
+	font-family: specialFont;
+	src: url(../fonts/Capture_it.ttf);
+}
+
 body {
     background: url("../Images/background.jpg");
 	background-repeat:no-repeat;
@@ -5,7 +10,7 @@ body {
 	background-position:center;
     color:#000305;
     font-size:87.5%;
-    font-family: Tahoma,'Lucida Sans Unicode';
+    font-family: specialFont;
     line-height:1.5;
     text-align:left;
 }
