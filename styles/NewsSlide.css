@@ -213,15 +213,19 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     -ms-transition: opacity ease-in 0.4s 0.8s;
     transition: opacity ease-in 0.4s 0.8s; 
 }
+.sp-slider > li h3{
+	text-transform: uppercase;
+	font-weight: bold;
+}
 .sp-slider > li img{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	display: block;
+
 	margin: 0 auto;
-	padding: 40px 0 50px 0;
+	padding: 0px 0 20px 0;
 	max-height: 100%;
 	max-width: 100%;
 }
