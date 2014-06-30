@@ -212,8 +212,8 @@ aside {
         margin-top: 2%;
     }
 
-    .top-sidebar, .middle-sidebar, .bottom-sidebar {
-        width: 94%;
+    aside {
+        width: 90%;
         margin-left:0%;
         margin-bottom: 2%;
         padding: 2% 3%;
