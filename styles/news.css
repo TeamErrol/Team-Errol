@@ -1,0 +1,41 @@
+article{
+	margin-top: 10px;
+ 	display: inline-block;
+ 	font-size: 18px;
+    line-height: 30px;
+    background-color:rgba(113,134,131,0.8);
+    border-width: 5px;
+    border-style:inset;
+    border-color: #949fa6;
+}
+
+
+article header h3{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.pics{
+	width: 20%;
+	height: auto;
+	float: left;
+    margin-right: 10px;
+}
+.pics:hover{
+	width: 50%;
+	height: auto;
+}
+.hiddenContent{
+	display: none;
+}
+
+a.showLink, a.hideLink {
+      text-decoration: none;
+      font-size: 14px;
+      color: white;
+      padding-left: 8px;
+}
+
+a.showLink:hover, a.hideLink:hover {
+     background:black; 
+}
