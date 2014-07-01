@@ -2,103 +2,44 @@
 	font-family: specialFont;
 	src: url(../fonts/Capture_it.ttf);
 }
-         /*  CONTENT   */
 
-
-
-.maincontent {
-    margin: 2%;
+h1{
+    text-align: center;
 }
+<<<<<<< HEAD
 
 .photo{
     width:33%;
     height: auto;
-    float: left;
-    border-radius: 2% 0% 0% 2%;
-}
-
-.content .info {
-    width: 69%;
-    height: 297px;
-    color:black;
-    background-color: white;
-    float: left;
-    padding-left: 4px;
-    border-radius: 0px 2px 2px 0px;
-}
-
-div#kurtevInfo.info {
-    height: 189px;
-}
-
-div#karamfilovInfo.info {
-    height: 189px;
-}
-
-div#vladoInfo.info {
-    height: 177px;
-}
-
-
-
-
-        /*  FOOTER  */
-
-
-
-.mainfooter {
+=======
+.contentInfo{
     width: 100%;
-    height: 40px;
+    margin-top: 20px;
+>>>>>>> origin/master
     float: left;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    background-color: #234465;
-    margin: 2% 0;
+    color:black;
+    background-color:rgba(113,134,131,0.8);
+    border-width: 5px;
+    border-style:inset;
+    border-color: #949fa6;
+    border-radius: 20px;
 }
 
-.mainfooter p {
-    width:92%;
-    margin: 1% auto;
-    color: #fff;
+.photo{
+    float: left;
+    margin-right: 10px;
+    border-top-left-radius: 20px;
 }
 
+.info{
+    padding: 10px 10px 10px 10px;
 
 
-     /*RESPONSIVE*/
+}
 
-
-
+ /*RESPONSIVE*/
 @media only screen  and (min-width: 150px) and (max-width: 600px) {
-    .body {
-        width: 90%;
-        font-size: 95%;
-    }
-
-    .mainheader img {
-        width:100%;
-    }
-
-    .mainheader nav {
-        height: 160px;
-    }
-
-    .mainheader nav ul {
-        padding-left: 0px;
-    }
-
-    .mainheader nav ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .mainheader nav a:link, .mainheader nav a:visited {
-        padding: 10px 25px;
-        height: 20px;
-        display: block;
-    }
-
-    .content .info {
+    .contentInfo .info {
         width: 99%;
     }
 

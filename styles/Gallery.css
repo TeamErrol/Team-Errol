@@ -3,6 +3,11 @@
     overflow: hidden;
 }
 
+section{
+    display: inline-block;
+    margin-top: 10px;
+}
+
 h2{
 	text-align: center;
 	color:#fff;
