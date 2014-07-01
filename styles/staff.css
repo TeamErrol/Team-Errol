@@ -2,12 +2,19 @@
 	font-family: specialFont;
 	src: url(../fonts/Capture_it.ttf);
 }
+
+h1{
+    text-align: center;
+}
 .contentInfo{
     width: 100%;
     margin-top: 20px;
     float: left;
     color:black;
-    background-image: url(../Images/InfoStaffback.jpg);
+    background-color:rgba(113,134,131,0.8);
+    border-width: 5px;
+    border-style:inset;
+    border-color: #949fa6;
     border-radius: 20px;
 }
 
@@ -15,15 +22,14 @@
     float: left;
     margin-right: 10px;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 .info{
     padding: 10px 10px 10px 10px;
 
+
 }
 
- 
  /*RESPONSIVE*/
 @media only screen  and (min-width: 150px) and (max-width: 600px) {
     .contentInfo .info {
