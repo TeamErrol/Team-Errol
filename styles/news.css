@@ -40,4 +40,7 @@ a.showLink:hover, a.hideLink:hover {
      background:black; 
 }
 
-#
+#team {
+    width: 90%;
+    height: auto;
+}
