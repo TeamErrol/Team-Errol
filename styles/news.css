@@ -1,12 +1,15 @@
 article{
-	margin-top: 10px;
+	margin-top: 20px;
  	display: inline-block;
  	font-size: 18px;
     line-height: 30px;
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+	color: white;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
 }
 
 

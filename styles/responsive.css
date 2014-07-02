@@ -91,7 +91,7 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center;
-    color:#000305;
+    color: white;
     font-size:87.5%;
     font-family: specialFont;
     line-height:1.5;
@@ -102,12 +102,8 @@ body {
     display: inline-block;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:link, a:visited {
-    color: #12366d;
+    color: white;
 }
 
 .body {
@@ -138,13 +134,19 @@ a:link, a:visited {
 }
 
 .mainheader nav {
-    background-color: rgba(113,134,131,0.6);
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
     height:60px;
     font-size: 120%;
-    border-width: 5px;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
+}
+
+.mainheader a {
+	text-decoration: none;
 }
 
 .mainheader nav ul {
@@ -180,33 +182,41 @@ a:link, a:visited {
 }
 
 .topcontent {
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+    color: white;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .middlecontent {
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+    color: white;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
     border-radius: 5px;
+	box-shadow: 10px 10px 5px black;
     padding: 3% 5%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .bottomcontent {
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .headpic {
@@ -217,16 +227,19 @@ a:link, a:visited {
 aside {
     width: 19.5%;
     float: right;
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
-    margin-top: 1.5%;
+    margin-top: 3.5%;
     margin-left: 3%;
     margin-bottom: 2%;
     padding: 2% 3%;
 }
+
 aside img{
     width: 99%;
     height: 50%;
@@ -241,11 +254,14 @@ aside img{
     width: 100%;
     height: 10%;
     float: left;
-    background-color:rgba(113,134,131,0.8);
-    border-width: 5px;
+    color: white;
+    background-image: url("../Images/test.jpg");
+	background-size: 100% 100%;
+    border-width: 2px;
+	box-shadow: 10px 10px 5px black;
     border-style:inset;
-    border-color: #949fa6;
-    border-radius: 35px;
+    border-color: skyblue;
+    border-radius: 0 0 35px 35px;
     margin: 2% 0;
 }
 .mainfooter ul{
@@ -261,6 +277,10 @@ aside img{
     text-align: left;
     padding-right: 40%;
     padding-left: 35%;
+}
+
+.mainfooter a {
+	color: white;
 }
 
 @media only screen  and (min-width: 150px) and (max-width: 600px)
@@ -297,7 +317,7 @@ aside img{
     .content {
         width: 100%;
         float:left;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
     aside {
