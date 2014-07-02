@@ -39,9 +39,6 @@ ul.galleryItems.columns-3 li:hover {
 }
 
 @media (max-width: 900px) {
-    .wrapper {
-        width: 100%;
-    }
 
     ul.galleryItems.columns-3 li {
         height: auto;
