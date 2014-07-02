@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
 	font-family: specialFont;
 	src: url(../fonts/Capture_it.ttf);
 }
@@ -243,7 +243,6 @@ aside img{
 
 
 .mainfooter p {
-    float: center;
     text-align: left;
     padding-right: 40%;
     padding-left: 35%;
