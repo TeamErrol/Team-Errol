@@ -67,27 +67,10 @@
   }
 }
 
-.wobble-bottom {
-  display: inline-block;
-  -webkit-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
-  -webkit-animation-name: wobble-bottom;
-  animation-name: wobble-bottom;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
+
 
 body {
-    background: url("../Images/background.jpg");
+    background: url("../Images/bright-background.jpg");
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center;
@@ -165,6 +148,25 @@ a:link, a:visited {
     display: inline;
 }
 
+.wobble-bottom {
+  display: inline-block;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
+  -webkit-animation-name: wobble-bottom;
+  animation-name: wobble-bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
 .mainheader nav a:link, .mainheader nav a:visited {
     color:#fff;
     text-shadow:3px 3px black;
