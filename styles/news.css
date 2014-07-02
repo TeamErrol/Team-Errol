@@ -12,9 +12,9 @@ article{
 	background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 33%,#207cca 69%,#7db9e8 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 33%,#207cca 69%,#7db9e8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-    border-width: 2px;
+    border-width: 5px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: black;
 	box-shadow: 10px 10px 5px black;
 }
 
@@ -53,12 +53,12 @@ article header h3{
 a.showLink, a.hideLink {
       text-decoration: none;
       font-size: 14px;
-      color: white;
+      color: black;
       padding-left: 8px;
 }
 
 a.showLink:hover, a.hideLink:hover {
-     background:black; 
+     background:blue; 
 }
 
 #team {
