@@ -1,12 +1,14 @@
 .sp-slideshow {
     position: relative;
-	width: 100%;
+	width: 99.5%;
 	height: 460px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    border-width: 5px;
+    border-width: 2px;
     border-style:inset;
-    border-color: #949fa6;
+    border-color: skyblue;
+	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
+	margin-top: 20px;
 }
 
 .sp-content {
