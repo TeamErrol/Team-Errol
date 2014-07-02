@@ -25,7 +25,7 @@ ul.galleryItems li img {
 
 ul.galleryItems.columns-3 li {
 	height: auto;
-	width: 20%;
+	width: 30.83%;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -34,8 +34,8 @@ ul.galleryItems.columns-3 li {
 }
 
 ul.galleryItems.columns-3 li:hover {
-	width: 30%;
 	height: auto;
+    width: 50.83%;
 }
 
 @media (max-width: 900px) {
@@ -45,20 +45,16 @@ ul.galleryItems.columns-3 li:hover {
 
     ul.galleryItems.columns-3 li {
         height: auto;
-        width: 20%;
+        width: 47.5% !important;/* over-ride all li styles */
         -webkit-transition: all 1s ease;
         -moz-transition: all 1s ease;
         -o-transition: all 1s ease;
         -ms-transition: all 1s ease;
         transition: all 1s ease;
-    }
+    } 
+}
 
-    ul.galleryItems.columns-3 li:hover {
-        width: 30%;
-        height: auto;
-    }
-
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
         ul.galleryItems-nav li {
             display: block;
             margin: 0 0 5px;
@@ -74,7 +70,7 @@ ul.galleryItems.columns-3 li:hover {
 
         ul.galleryItems.columns-3 li {
             height: auto;
-            width: 20%;
+            width: 100% !important; /* over-ride all li styles */
             -webkit-transition: all 1s ease;
             -moz-transition: all 1s ease;
             -o-transition: all 1s ease;
@@ -82,9 +78,4 @@ ul.galleryItems.columns-3 li:hover {
             transition: all 1s ease;
         }
 
-        ul.galleryItems.columns-3 li:hover {
-            width: 30%;
-            height: auto;
-        }
     }
-}
