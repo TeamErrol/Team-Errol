@@ -43,17 +43,23 @@ h1{
     padding: 10px 10px 10px 10px;
 }
 
+#widepic {
+    width: 400px;
+    height: auto;
+}
+
  /*RESPONSIVE*/
 @media only screen  and (min-width: 150px) and (max-width: 600px) {
     .contentInfo .info {
-        width: 99%;
+        width: 95%;
     }
     .photo {
         width: 94%
     }
 
-    .contentInfo {
-        padding-right: 5%;
+    #widepic {
+        width: 90%;
+        height: auto;
     }
 }
 
