@@ -189,6 +189,16 @@ a:link, a:visited {
     margin-top: 2%;
 }
 
+.middlecontent {
+    background-color:rgba(113,134,131,0.8);
+    border-width: 5px;
+    border-style:inset;
+    border-color: #949fa6;
+    border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
 .bottomcontent {
     background-color:rgba(113,134,131,0.8);
     border-width: 5px;
@@ -197,6 +207,11 @@ a:link, a:visited {
     border-radius: 5px;
     padding: 3% 5%;
     margin-top: 2%;
+}
+
+.headpic {
+    width: 20%;
+    height: auto;
 }
 
 aside {
