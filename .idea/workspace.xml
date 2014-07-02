@@ -26,8 +26,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="6324">
-              <caret line="250" column="1" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="6341">
+              <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <file leaf-file-name="staff.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41835147" vertical-offset="564" max-vertical-offset="2227">
-              <caret line="49" column="195" selection-start-line="49" selection-start-column="195" selection-end-line="49" selection-end-column="195" />
+            <state vertical-scroll-proportion="1.0839814" vertical-offset="0" max-vertical-offset="2227">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -95,13 +95,6 @@
       </file>
       <file leaf-file-name="Theteam.jpg" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Theteam.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transparent_Troll_Face.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transparent_Troll_Face.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -263,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="842" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -618,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="6324">
-          <caret line="250" column="1" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="6341">
+          <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -638,11 +631,6 @@
           <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transparent_Troll_Face.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Theteam.jpg">
@@ -668,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/staff.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41835147" vertical-offset="564" max-vertical-offset="2227">
-          <caret line="49" column="195" selection-start-line="49" selection-start-column="195" selection-end-line="49" selection-end-column="195" />
+        <state vertical-scroll-proportion="1.0839814" vertical-offset="0" max-vertical-offset="2227">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding />
         </state>
       </provider>
