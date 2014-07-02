@@ -72,11 +72,11 @@
 body {
     background: url("../Images/bright-background.jpg");
 	background-repeat:no-repeat;
-	background-attachment:fixed;
+	background-size: cover;
 	background-position:center;
+	background-attachment:fixed;
     color: white;
     font-size:87.5%;
-	background-size: 100%;
     font-family: specialFont;
     line-height:1.5;
     text-align:left;
