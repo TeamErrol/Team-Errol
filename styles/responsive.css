@@ -322,6 +322,51 @@ aside img{
 	color: white;
 }
 
+@media only screen  and (min-width: 600px) and (max-width: 810px)
+{
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .mainheader img {
+        height: 60px;
+        margin: 2% 0;
+    }
+
+    .mainheader nav {
+        height: 160px;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        float:left;
+        margin-top: 5%;
+    }
+
+    aside {
+        width: 90%;
+        margin-left:0%;
+        margin-bottom: 2%;
+        padding: 2% 3%;
+    }
+}
+
 @media only screen  and (min-width: 150px) and (max-width: 600px)
 {
     .body {
