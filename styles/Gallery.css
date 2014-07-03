@@ -13,8 +13,8 @@ ul.galleryItems li {
 }
 
 h2{
-	text-align: center;
-	color:#fff;
+    text-align: center;
+    color:#fff;
 }
 
 ul.galleryItems li img {
@@ -24,17 +24,17 @@ ul.galleryItems li img {
 }
 
 ul.galleryItems.columns-3 li {
-	height: auto;
-	width: 26.83%;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
+    height: auto;
+    width: 26.83%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 ul.galleryItems.columns-3 li:hover {
-	height: auto;
+    height: auto;
     width: 32.83%;
 }
 

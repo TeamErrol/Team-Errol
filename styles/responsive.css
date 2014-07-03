@@ -1,6 +1,6 @@
 @font-face {
-	font-family: specialFont;
-	src: url(../fonts/Capture_it.ttf);
+    font-family: specialFont;
+    src: url(../fonts/Capture_it.ttf);
 }
 
 @-webkit-keyframes wobble-bottom {
@@ -71,10 +71,10 @@
 
 body {
     background: url("../Images/background.jpg");
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position:center;
-	background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
     color: white;
     font-size:87.5%;
     font-family: specialFont;
@@ -131,12 +131,12 @@ a:link, a:visited {
     border-width: 2px;
     border-style:inset;
     border-color: #2e446a;
-	box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
     border-radius: 5px;
 }
 
 .mainheader a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .mainheader nav ul {
@@ -192,7 +192,7 @@ a:link, a:visited {
 
 .topcontent {
     color: white;
-	background: rgba(45,178,215,1);
+    background: rgba(45,178,215,1);
     background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,178,215,1)), color-stop(41%, rgba(41,156,188,0.9)), color-stop(58%, rgba(21,136,168,0.86)), color-stop(100%, rgba(37,127,152,0.75)));
     background: -webkit-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
@@ -203,7 +203,7 @@ a:link, a:visited {
     border-width: 2px;
     border-style:inset;
     border-color: #2e446a;
-	box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
     margin-top: 5%;
@@ -211,7 +211,7 @@ a:link, a:visited {
 
 .middlecontent {
     color: white;
-	background: rgba(45,178,215,1);
+    background: rgba(45,178,215,1);
     background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,178,215,1)), color-stop(41%, rgba(41,156,188,0.9)), color-stop(58%, rgba(21,136,168,0.86)), color-stop(100%, rgba(37,127,152,0.75)));
     background: -webkit-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
@@ -223,7 +223,7 @@ a:link, a:visited {
     border-style:inset;
     border-color: #2e446a;
     border-radius: 5px;
-	box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
     padding: 3% 5%;
     margin-top: 5%;
 }
@@ -240,7 +240,7 @@ a:link, a:visited {
     border-width: 2px;
     border-style:inset;
     border-color: #2e446a;
-	box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
     margin-top: 5%;
@@ -254,7 +254,7 @@ a:link, a:visited {
 aside {
     width: 20.5%;
     float: right;
-	background: rgba(45,178,215,1);
+    background: rgba(45,178,215,1);
     background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,178,215,1)), color-stop(41%, rgba(41,156,188,0.9)), color-stop(58%, rgba(21,136,168,0.86)), color-stop(100%, rgba(37,127,152,0.75)));
     background: -webkit-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
@@ -265,7 +265,7 @@ aside {
     border-width: 2px;
     border-style:inset;
     border-color: #2e446a;
-	box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     margin-top: 3.5%;
     margin-left: 2%;
@@ -284,7 +284,7 @@ aside {
     height: 10%;
     float: left;
     color: white;
-	background: rgba(45,178,215,1);
+    background: rgba(45,178,215,1);
     background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,178,215,1)), color-stop(41%, rgba(41,156,188,0.9)), color-stop(58%, rgba(21,136,168,0.86)), color-stop(100%, rgba(37,127,152,0.75)));
     background: -webkit-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
@@ -292,8 +292,8 @@ aside {
     background: -ms-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     background: linear-gradient(to right, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
-	border-width: 2px;
-	box-shadow: 10px 10px 5px black;
+    border-width: 2px;
+    box-shadow: 10px 10px 5px black;
     border-style:inset;
     border-color: #2e446a;
     border-radius: 0 0 35px 35px;
@@ -320,7 +320,7 @@ aside {
 }
 
 .mainfooter a {
-	color: white;
+    color: white;
 }
 
 <<<<<<< HEAD
