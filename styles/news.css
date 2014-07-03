@@ -1,0 +1,72 @@
+article{
+	margin-top: 20px;
+ 	display: inline-block;
+ 	font-size: 18px;
+    line-height: 30px;
+	color: white;
+    background: rgba(45,178,215,1);
+    background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,178,215,1)), color-stop(41%, rgba(41,156,188,0.9)), color-stop(58%, rgba(21,136,168,0.86)), color-stop(100%, rgba(37,127,152,0.75)));
+    background: -webkit-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
+    background: -o-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
+    background: -ms-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
+    background: linear-gradient(to right, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
+    border-width: 5px;
+    border-style:inset;
+    border-color: black;
+	box-shadow: 10px 10px 5px black;
+}
+
+
+article header h3{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+
+.pics {
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-right: 10px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ 
+.pics:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.hiddenContent{
+	display: none;
+}
+
+a.showLink, a.hideLink {
+      text-decoration: none;
+      font-size: 14px;
+      color: black;
+      padding-left: 8px;
+}
+
+a.showLink:hover, a.hideLink:hover {
+     background:blue; 
+}
+
+#team {
+    width: 90%;
+    height: auto;
+}
+
+#illuminati {
+    width: 60%;
+    height: auto;
+}
