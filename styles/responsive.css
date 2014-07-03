@@ -130,7 +130,7 @@ a:link, a:visited {
     font-size: 120%;
     border-width: 2px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
 	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
 }
@@ -202,7 +202,7 @@ a:link, a:visited {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
     border-width: 2px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
 	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
@@ -221,7 +221,7 @@ a:link, a:visited {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
     border-width: 2px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
     border-radius: 5px;
 	box-shadow: 10px 10px 5px black;
     padding: 3% 5%;
@@ -239,7 +239,7 @@ a:link, a:visited {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
     border-width: 2px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
 	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     padding: 3% 5%;
@@ -252,7 +252,7 @@ a:link, a:visited {
 }
 
 aside {
-    width: 19.5%;
+    width: 20.5%;
     float: right;
 	background: rgba(45,178,215,1);
     background: -moz-linear-gradient(left, rgba(45,178,215,1) 0%, rgba(41,156,188,0.9) 41%, rgba(21,136,168,0.86) 58%, rgba(37,127,152,0.75) 100%);
@@ -264,19 +264,15 @@ aside {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db2d7', endColorstr='#257f98', GradientType=1 );
     border-width: 2px;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
 	box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     margin-top: 3.5%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-bottom: 2%;
     padding: 2% 3%;
 }
 
-aside img{
-    width: 99%;
-    height: 50%;
-}
 .post-info {
     font-style: italic;
     color: #999;
@@ -299,7 +295,7 @@ aside img{
 	border-width: 2px;
 	box-shadow: 10px 10px 5px black;
     border-style:inset;
-    border-color: skyblue;
+    border-color: #2e446a;
     border-radius: 0 0 35px 35px;
     margin: 2% 0;
 }
@@ -311,17 +307,25 @@ aside img{
     margin-top: 0
 }
 
+.mainfooter ul h3{
+    color:black;
+    font-style: italic;
+    margin:1%;
+}
 
 .mainfooter p {
-    text-align: left;
     padding-right: 40%;
     padding-left: 35%;
+    font-size: 14px;
 }
 
 .mainfooter a {
 	color: white;
 }
 
+<<<<<<< HEAD
+@media only screen  and (min-width: 600px) and (max-width: 810px){
+=======
 .subheader {
     width: 90%;
     height: auto;
@@ -329,6 +333,7 @@ aside img{
 
 @media only screen  and (min-width: 600px) and (max-width: 810px)
 {
+>>>>>>> origin/master
     .body {
         width: 90%;
         font-size: 95%;
@@ -365,15 +370,24 @@ aside img{
     }
 
     aside {
-        width: 90%;
-        margin-left:0%;
+        width:93.5%;
+        margin-left:0;
         margin-bottom: 2%;
         padding: 2% 3%;
     }
 
+    .mainfooter nav ul{
+        padding: 6%;
+        width: 20%
+    }
     .contentImg {
         width:300px;
         height: auto;
+    }
+    .mainfooter p {
+        padding-right: 35%;
+        padding-left: 15%;
+        font-size: 14px;
     }
 
     .photo{
@@ -382,8 +396,7 @@ aside img{
     }
 }
 
-@media only screen  and (min-width: 150px) and (max-width: 600px)
-{
+@media only screen  and (min-width: 150px) and (max-width: 600px){
     .body {
         width: 90%;
         font-size: 95%;
@@ -420,10 +433,18 @@ aside img{
     }
 
     aside {
-        width: 90%;
+        width: 93.5%%;
         margin-left:0%;
         margin-bottom: 2%;
         padding: 2% 3%;
+    }
+    .mainfooter p {
+        padding-right: 40%;
+        padding-left: 15%;
+        font-size: 14px;
+    }
+    .mainfooter ul img{
+        width: 50%;
     }
 
     .contentImg {
