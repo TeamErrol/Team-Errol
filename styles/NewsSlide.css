@@ -1,3 +1,4 @@
+/*main styles for the news slideshow*/
 .sp-slideshow {
     position: relative;
 	width: 99.5%;
@@ -20,6 +21,13 @@
 	background-size: cover;
 }
 
+.sp-slider > li h3{
+	text-transform: uppercase;
+	color:black;
+	font-style:italic;
+	font-size: 26px;
+}
+/* styles for the lables*/
 .sp-slideshow input {
     position: absolute;
 	bottom: 15px;
@@ -52,9 +60,11 @@
     -ms-transition: background-color linear 0.1s;
     transition: background-color linear 0.1s;
 }
+
+/* setting up the bottom radio buttons position*/
 .sp-slideshow input:checked + label {
 	background-color: #fff;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .sp-selector-1, .button-label-1 {
@@ -73,6 +83,7 @@
     margin-left: 36px;
 }
 
+/*styles for the side arrows*/
 .sp-arrow {
     position: absolute;
 	top: 50%;
@@ -90,12 +101,11 @@
     -ms-transition: opacity linear 0.3s;
     transition: opacity linear 0.3s;
 }
-.sp-arrow:hover{
-	opacity: 1;
-}
-.sp-arrow:active{
-	margin-top: -18px;
-}
+.sp-arrow:hover{opacity: 1;}
+.sp-arrow:active{margin-top: -18px;}
+
+/*define when an arrow should be shown 
+(doesnt show left arrow on slide 1 and right on slide 5)*/
 .sp-selector-1:checked ~ .sp-arrow.sp-a2,
 .sp-selector-2:checked ~ .sp-arrow.sp-a3,
 .sp-selector-3:checked ~ .sp-arrow.sp-a4,
@@ -113,10 +123,11 @@
 	background-position: top left;
 }
 
+/*styling the news content*/
 .sp-slider {
     position: relative;
 	left: 0;
-    width: 500%;
+    width: 500%;/* 5 slides *100% each*/
 	height: 100%;
 	list-style: none;
     margin: 0;
@@ -127,7 +138,8 @@
     -ms-transition: left ease-in 0.8s;
     transition: left ease-in 0.8s; 
 }
-
+/*Each list element is a slide and it will also have 
+a transition for the opacity.*/
 .sp-slider > li {
 	width: 20%;
 	height: 100%;
@@ -143,6 +155,7 @@
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+	/*delay in, changing the opacity when sliding*/
     -webkit-transition: opacity ease-in 0.4s 0.8s;
     -moz-transition: opacity ease-in 0.4s 0.8s;
     -o-transition: opacity ease-in 0.4s 0.8s;
@@ -150,14 +163,10 @@
     transition: opacity ease-in 0.4s 0.8s; 
 }
 
-.sp-slider > li h3{
-	text-transform: uppercase;
-	color:black;
-	font-style:italic;
-	font-size: 26px;
-}
 
 
+/*box-sizing property will allow us to set a padding but also use 
+100% values for heights and widths and not worry about any overflow:*/
 .sp-slider > li img{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -170,26 +179,19 @@
 	max-height: 100%;
 	max-width: 100%;
 }
-input.sp-selector-1:checked ~ .sp-content .sp-slider {
-    left: 0;
-}
 
-input.sp-selector-2:checked ~ .sp-content .sp-slider {
-    left: -100%;
-}
+/* setting up the correct left values for each selected slide:*/
+input.sp-selector-1:checked ~ .sp-content .sp-slider {left: 0;}
 
-input.sp-selector-3:checked ~ .sp-content .sp-slider {
-    left: -200%;
-}
+input.sp-selector-2:checked ~ .sp-content .sp-slider {left: -100%;}
 
-input.sp-selector-4:checked ~ .sp-content .sp-slider {
-    left: -300%;
-}
+input.sp-selector-3:checked ~ .sp-content .sp-slider {left: -200%;}
 
-input.sp-selector-5:checked ~ .sp-content .sp-slider {
-    left: -400%;
-}
+input.sp-selector-4:checked ~ .sp-content .sp-slider {left: -300%;}
 
+input.sp-selector-5:checked ~ .sp-content .sp-slider {left: -400%;}
+
+/*sets the opacity of the current slide back to 1*/
 input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
 input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
 input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
